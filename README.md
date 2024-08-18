@@ -5,7 +5,7 @@ This script scrapes course information from specified college websites. It retri
 
 #### Requirements
 - Python 
-- Libraries: `requests`, `beautifulsoup4`,`pandas`
+- Libraries: `requests`, `beautifulsoup4`
 
 You can install the required libraries using:
 ```bash
