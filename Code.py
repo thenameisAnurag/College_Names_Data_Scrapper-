@@ -32,7 +32,7 @@ def user_input():
         if "hansrajcollege" in url:
             data_dict["Hansraj College"] = get_data_hansraj(url)
         elif "aryabhattacollege" in url:
-            data_dict["Aryabhatt College"] = get_data_aryabhatt(url)
+            data_dict["Aryabhatta College"] = get_data_aryabhatt(url)
         else:
             print("Unsupported URL")
             return
@@ -42,7 +42,7 @@ def user_input():
             if "hansrajcollege" in url:
                 data_dict["Hansraj College"] = get_data_hansraj(url)
             elif "aryabhattacollege" in url:
-                data_dict["Aryabhatt College"] = get_data_aryabhatt(url)
+                data_dict["Aryabhatta College"] = get_data_aryabhatt(url)
         else:
             print("College name not found.")
             return
